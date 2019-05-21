@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #D25E07;
+    background-color: #000014;
+    color: #f3f3f3;
+    font-family: 'Baloo Bhai', cursive;
+    background-image: url("bricks.jpg");
+
+    background-repeat: repeat-xy;
+
+}
+
+#title{
+    text-align: center;
+    font-size: 8vh;
+    margin-top: 10vh;
+    font-family: 'Baloo Bhai', cursive;
+
+    
+}
+
+.neon{
+    color: #c300ff;
+    font-family: mexcellent3d;
+}
+
+.score{
+    
+    float: right;
+    margin-right: 1vw;
+}
+
+
+
+#logo{
+    
+    margin-left: 1vw;
+    font-size: 3vh;
+    color: #c300ff;
+    font-family: mexcellent3d;
+    
+}
+
+#startButton{
+    display: block;
+    margin: auto;
+    color: white;
+    text-align: center;
+    background-color: #F5A522;
+    font-size: 3vh;
+}
+
+#bulb{
+    display: block;
+    margin: auto;
+    max-height: 60vh;
+}
+
+
+.questionHeader{
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 5vh;
+    padding-bottom: 5vh;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    font-family: 'Baloo Bhai', cursive;
+
+}
+
+ol {
+    list-style-type: none;
+    padding-left: 27vw;
+    font-size: 3vh;
+   
+}
+
+li{
+    padding-bottom: 5vh;
+    
+}
+
+.answers{
+    color: white;
+    font-size: 4vh;
+    margin-left: 2vw;
+    font-family: 'Baloo Bhai', cursive;
+
+}
+
+.radioInput{
+    height: 3vh !important;
+    width: 3vh !important;
+    background-color: cyan !important;
+    color: cyan !important;
+    
+    
+}
+
+#nextButton{
+    color: white;
+    display: block;
+    margin: auto;
+    background-color: #F5A522;
+    font-size: 3vh;
+}
+
+
+.thinkingImage{
+    float: right;
+    margin-right: 20vw;
+    max-height: 35vh;
+}
+
+@font-face {
+    font-family: 'mexcellent3d';
+    src: url('mexcellent_3d-webfont.woff2') format('woff2'),
+         url('mexcellent_3d-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#end{
+    font-size: 7vh;
+    text-align: center;
+}
+
+#yourScore{
+    font-size: 5vh;
+    text-align: center;
+}
+
+
+.tryAgain{
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+#fb-root{
+    font-size: 4vh;
+    display: flex;
+    justify-content: center;
+}
+
+#thanks-pic{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    display: block;
+    margin: auto;
+    
+}
+
+@media only screen and (max-width: 1100px) {
+   
+
+    #title{
+        margin-top: 5vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+    .score{
+        font-size: 2vh;
+    }
+
+    #score{
+        font-size: 2vh;
+    }
+
+
+
+    #bulb{
+        display: block;
+        margin: auto;
+        min-height: 40vh;
+    }
+    .questionHeader{
+        font-size: 4vh;
+        margin-top: 5vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .answers{
+        font-size: 3vh;
+    }
+
+    .radioInput{
+        height: 1.5vh;
+    }
+    .thinkingImage{
+        display: none;
+    }
+    
+    #nextButton{
+        font-size: 2vh;
+        margin-bottom: 2vh;
+        
+    }
+
+
+
+  }

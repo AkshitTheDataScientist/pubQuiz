@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="reset.css">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <script src="main.js"></script>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3"></script>
+        <div id="sticky-header"> 
+            <span id="logo">PUB QUIZ!</span>
+            <span class="score">Score: <span id="score">0</span></span>
+
+        </div>
+        <div id="main">
+            <h1 id="title">Welcome to the 
+                <span class="neon"> PUB QUIZ!</span>
+            </h1>
+            <img src="light-bulb.jpg" id="bulb" alt="LightBulb">
+            <img src="bricks.jpg" id="background" alt="LightBulb">
+            <button onclick="retrieveQuestion()" class="btn btn-warning" id="startButton">Start</button>
+        </div>
+        
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3"></script>
+    </body>
+</html>
+
